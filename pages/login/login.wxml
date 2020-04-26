@@ -1,0 +1,4 @@
+<view class="loginBox">
+   <image class='logo' mode='scaleToFill' src='../../images/logo/logo.png'></image>
+   <button wx-if="{{canIUse}}" open-type='getUserInfo' class='btn-yellow' bindtap='login'>用户授权</button>
+</view>

@@ -1,0 +1,49 @@
+{
+  "pages":[
+      "pages/hello/hello",
+      "pages/login/login",
+"pages/index/index",
+    "pages/books/books",
+    
+    "pages/information/information",
+    "pages/me/me",
+    "pages/add/add",
+    "pages/camera/camera",
+    "pages/template/template"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFDD00",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "豚鼠",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FFDD00",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/books/books",
+        "iconPath": "images/icons/tabBar/tab_community_img_normal.png",
+        "selectedIconPath": "images/icons/tabBar/tab_community_img_pressed.png",
+        "text": "书库"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icons/tabBar/tab_home_img_normal.png",
+        "selectedIconPath": "images/icons/tabBar/tab_home_img_pressed.png",
+        "text": "鼠窝"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/icons/tabBar/tab_me_img_normal.png",
+        "selectedIconPath": "images/icons/tabBar/tab_me_img_pressed.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

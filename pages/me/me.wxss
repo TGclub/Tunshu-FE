@@ -1,0 +1,68 @@
+#information{
+  background: #FD0;
+  display: flex;
+  justify-content: space-between;
+}
+#information image{
+  width: 200rpx;
+  height: 200rpx;
+  border: solid 0.5px white;
+  border-radius: 50%;
+  margin: 0 40rpx 10rpx 10rpx;
+}
+ #information image+text{
+  margin-top: 20rpx;
+  font-size: 120% ;
+  color: white;
+} 
+#information+view{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  position: relative;
+}
+.one{
+  font-weight: bold;
+}
+.one+text{
+  font-size: 11px;
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+  color: #FD0;
+}
+
+#information button{
+  height: 30px; 
+  margin-right: 10rpx;
+  margin-top: 55rpx;
+  border-radius: 45rpx;
+  background: rgb(244, 222, 41);
+  color: white;
+  border: solid 1px white;
+}
+.bookshelf{
+  border-top: solid rgb(237, 237, 237) 1rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 50rpx;
+}
+.bookshelf image{
+  width: 100rpx;
+  height: 140rpx;
+  border-radius: 5px;
+}
+.group{
+  overflow: hidden;
+  width: 100rpx;
+}
+.group text{
+  color: rgb(97, 97, 97);
+  font-size: 30rpx;
+  display: block;
+  width: 100rpx;
+  height: 40rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

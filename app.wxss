@@ -1,0 +1,75 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.textInput{ 
+  border: solid gray 1px; 
+  border-radius: 10rpx;
+  width: 500rpx;
+}
+.red{
+  border: 1px solid red;
+}
+.xCenter{
+  margin: 0 auto;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.btn-yellow{
+  background: #FFDD00;
+  margin-top: 30rpx;
+  width: 500rpx;
+  color: white
+}
+.logo{
+  width: 500rpx;
+}
+.bar{
+  border-top: solid 1px white;
+  color: white;
+  font-size: 35rpx;
+  padding: 20rpx;
+  background: #FD0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.bar text{
+  font-weight: bold;
+}
+.bookitem{
+  display: flex;
+  padding: 40rpx 30rpx 20rpx 40rpx;
+  margin: 20rpx;
+  position: relative;
+  border-radius: 20rpx;
+  border: solid 1px rgb(198, 198, 198);
+}
+.bookitem image{
+  width: 150rpx;
+  height: 230rpx;
+  margin-right: 20rpx;
+}
+.searchBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80rpx;
+  background: #FFDD00;
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+.input-search{
+  background: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+}

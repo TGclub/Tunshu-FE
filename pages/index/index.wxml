@@ -1,0 +1,21 @@
+<view class="searchBar">
+    <input class='textInput input-search' placeholder='请输入你想寻找的图书'bindinput='changeKey' placeholder-class='searchText' ></input>
+    <text class='iconfont icon-sousuo' bindtap='search'></text>
+</view>
+<view>
+  <view class='imgBox'>
+      <view class='colunm'>
+        <image id='one' class='booksType' src='{{booksUrl_1}}' bindtap='toDetail'></image>
+        <image id='two' class='booksType' src='{{booksUrl_2}}' bindtap='toDetail'></image>
+      </view>
+      <view class='colunm'>
+        <image id='three' class='booksType' src='{{booksUrl_3}}' bindtap='toDetail'></image>
+        <image id='four' class='booksType' src='{{booksUrl_4}}' bindtap='toDetail'></image>
+      </view>
+      <text id='all' class='allBook' decode='true' bindtap='toDetail'>点击查看全部图书&gt;</text>
+  </view>
+</view>
+<text class='advice'>推荐书籍</text>
+<import src ="../template/template.wxml"/>
+<template is="books" data="{{books_info}}" />
+<view id='add' bindtap='add'>+</view>

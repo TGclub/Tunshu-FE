@@ -1,0 +1,100 @@
+/* .textBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.textBox{
+  display: flex;
+  flex-direction: column;
+}
+.textBox p{
+  margin-left: 20rpx;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.textBox view view:nth-child(1)
+{
+  color: #666;
+  font-size: 11px;
+  display: block;
+  padding:0 0 11px 11px; 
+}
+.textBox view view:nth-child(2) text:nth-child(1)
+{
+  font-size: 12px;
+  color: #FF3300;
+}
+.textBox view view:nth-child(2) text:nth-child(2)
+{
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+}
+.textBox view view:nth-child(3){
+  margin-top: 10px;
+}
+.textBox view view:nth-child(3) text:nth-child(1)
+{
+  color: rgb(149, 231, 93);
+  font-size: 20px;
+}
+.textBox view view:nth-child(3) text:nth-child(2)
+{
+  color: #333;
+  font-size: 12px;
+}
+.textBox view view:nth-child(3) text:nth-child(3)
+{
+  font-size: 15px;
+}
+.textBox .iconfont{
+  margin: 20rpx;
+}
+image{
+  border-radius: 5px;
+}
+.icon-book{
+  display: block;
+  width: 400rpx;
+}
+.bookitem{
+  position: relative;
+}
+.icon-shanchu{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 428374 */
+  src: url('//at.alicdn.com/t/font_428374_dk4l5iwqr27qfr.eot');
+  src: url('//at.alicdn.com/t/font_428374_dk4l5iwqr27qfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_428374_dk4l5iwqr27qfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_428374_dk4l5iwqr27qfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_428374_dk4l5iwqr27qfr.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-msnui-copy-file:before { content: "\e745"; }
+
+.icon-jiage:before { content: "\e66a"; }
+
+.icon-weixin:before { content: "\e7e5"; }
+
+.icon-book:before { content: "\e63a"; }
+
+.icon-shanchu:before { content: "\e620"; }
+
+
+
+
+

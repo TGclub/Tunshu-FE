@@ -1,0 +1,25 @@
+<template name="books">
+  <block wx:for="{{books_info}}" wx:key="description">
+    <view  class='bookitem'>
+      <image src='{{item.image}}'></image>
+      <view class='textBox'>
+          <p>{{item.name}}</p>
+          <view>
+            <view>
+              <text> {{item.description}}</text> 
+            </view>
+            <view> 
+              <text class='iconfont icon-jiage'>{{item.price}}</text>
+              <text class='iconfont icon-jiage'>{{item.original_price}}</text>
+            </view>
+            <view>
+              <text class='iconfont icon-weixin'> </text>
+              <text>{{item.weixin}}</text>
+              <text  id='{{index}}' class='iconfont icon-msnui-copy-file' bindtap='copy'></text>
+            </view>  
+          </view>
+      </view>
+      <text wx-if="{{isMe}}" id='{{index}}p' class='iconfont icon-shanchu' bindtap='deleteBook'></text>
+    </view>
+  </block>
+</template>

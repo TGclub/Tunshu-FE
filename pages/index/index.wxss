@@ -1,0 +1,93 @@
+@import "../books/books.wxss";
+.input-search{
+  border: solid white 1px;
+}
+input{
+  margin-left: 10rpx;
+}
+.imgBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 30rpx;
+  margin-top: 80rpx;
+  position: relative;
+}
+.icon-sousuo{
+  color: white;
+  display: block;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.searchText{
+  color: #666666;
+  font-size: 13px;
+}
+.searchBar{
+  z-index: 100;
+}
+.colunm{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+.booksType{
+  width: 300rpx;
+  height: 150rpx;
+  margin: 20rpx;
+}
+
+.advice{
+  color: #333333;
+  font-size: 16px;
+  display: block;
+  padding: 20rpx 30rpx;
+  background: #FFDD00;
+  font-weight: bold;
+}
+.allBook{
+  background: none;
+  font-weight: normal;
+  color: #FD0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  font-size: 15px;
+  bottom: -14px;
+}
+
+#add{
+  width: 90rpx;
+  height: 90rpx;
+  display: flex;
+  font-size: 60rpx;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background: #FD0;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15rpx;
+  right: 15rpx;
+  box-shadow: 8rpx 8rpx 5rpx rgb(150, 150, 150);
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 428374 */
+  src: url('//at.alicdn.com/t/font_428374_fhsi4qw7p9khjjor.eot');
+  src: url('//at.alicdn.com/t/font_428374_fhsi4qw7p9khjjor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_428374_fhsi4qw7p9khjjor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_428374_fhsi4qw7p9khjjor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_428374_fhsi4qw7p9khjjor.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before { content: "\e65a"; }
+

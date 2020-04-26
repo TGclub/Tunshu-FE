@@ -1,0 +1,12 @@
+.hello{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.hello image{
+  height: 100%;
+  width: 100%;
+}
+
+/* 这样布局可以使得图片铺满屏幕 */

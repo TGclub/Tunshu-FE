@@ -1,0 +1,16 @@
+view{
+  padding-top: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  margin: 10rpx;
+}
+.padding{
+  padding-left: 10rpx;
+}
+image{
+  width: 200px;
+  height: 200px;
+}

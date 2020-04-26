@@ -1,0 +1,7 @@
+<view>
+  <image src='../../images/logo/logo.png'></image>
+  <input class='textInput' placeholder='请输入您的微信号' 
+                           placeholder-class='padding'               
+                           bindinput='wechatNum'></input>
+  <button class='btn-yellow' bindtap='submit'>确定修改</button>
+</view>

@@ -1,0 +1,15 @@
+<view id='information'>
+  <image src='{{font_img}}'></image>
+  <text>{{nickName}}</text>
+  <button size='mini' bindtap='information'>编辑资料</button>
+</view>
+<view>
+  <text class='one'>我的书架</text>
+  <text decode='true' bindtap='toMyAll'>点击查看全部&gt;</text>
+</view>
+<view class='bookshelf'>
+  <view wx-if="{{books}}" wx:for="{{books}}" wx:key = "{{item.id}}" class='group'>
+    <image src='{{item.image}}'></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
